@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8); /* White shadow */
+    padding: 20px; /* Padding for content */
+}
+header {
+    color: #1c1717;
+    padding: 20px;
+    text-align: center;
+    padding-right: 300px;
+}
+#for{
+    padding-top: 100px;
+}
+.heding{
+    display: flex;
+    bottom: 100px;
+    gap: 20%;
+    padding-left: 30%;
+}
+.profile{
+    padding-right:20rem;
+}
+.profile-pic {
+    padding-bottom:30px;
+    width: 200px; 
+    height: 200px;
+    background-image: url('./src/WhatsApp\ Image\ 2024-05-18\ at\ 21.29.24_c0bbe07c.jpg'); /* Replace 'your-profile-pic.jpg' with your actual image */
+    background-size: cover;
+    border-radius: 50%; /* To make it circular */
+    animation: wave 1.5s infinite linear alternate; /* Apply the wave animation */
+}
+
+@keyframes wave {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); } /* Adjust the value to control the intensity of the wave */
+    100% { transform: translateY(0); }
+}
+.setting{
+    padding-right: 30px;
+}
+.tech-stack{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    gap: 50px;
+    padding-top:8rem ;
+    padding-left: 200px;
+}
+.about-me{
+    padding-top: 20%;
+    text-align: center;
+    height: 1
+    
+   
+}
+.wheel-container {
+    padding-top: 20%;
+    padding-left: 80%;
+    align-items: center;
+    position: relative;
+    width: 200px; /* Adjust width and height as needed */
+    padding-bottom: 40px;
+    
+}
+
+.wheel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate-wheel 4s linear infinite; /* Adjust the duration and timing function as needed */
+    transform-origin: center center;
+}
+
+@keyframes rotate-wheel {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg); /* Start rotating from 0 degrees */
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg); /* Complete one full rotation (360 degrees) */
+    }
+}
+.about-me h2{
+    color: rgb(16, 153, 191)
+}
+.about-me p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+.project a{
+    padding-left: 10px;
+}
+.project button{
+    border-radius: 10%;
+    font-size: 150%;
+    border-color: blueviolet;
+    border-style:groove;
+    background-color: aliceblue;
+}
+.project1 button{
+    border-radius: 10%;
+    font-size: 150%;
+    border-color: blueviolet;
+    border-style:groove;
+    background-color: aliceblue;
+}
+.project1 a{
+    padding-left: 10px;
+}
